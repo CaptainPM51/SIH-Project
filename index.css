@@ -351,23 +351,28 @@ a {
 .sampleMarquee {
   color: #ffffff;
   background-color: #ed333b;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 20px;
   padding: 15px;
   font-weight: bold;
-  /*margin-top: 4.6%;*/
 }
 
 /* tab */
 .title_view {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 4px;
-  margin: 10px;
 }
 
 .view{
   text-align: right;
+  background-color: var(--black-color);
+  color: #ffffff;
+  padding: 10px;
+}
+
+.view a:link {
+  color: #ffffff;
+  background-color: transparent;
 }
 
 /* class for first and second section */
@@ -376,6 +381,12 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 4px;
   margin: 10px;
+}
+
+.tile_title {
+  background-color: var(--black-color);
+  color: #ffffff;
+  padding: 10px;
 }
 
 /* first section and second section for video and description */
@@ -390,3 +401,24 @@ a {
 .thumbnail {
   margin: 10px;
 }
+
+.thumbnail img {
+  width: 100%;
+  height: 95%;
+}
+
+/*Description*/
+.description {
+  margin-top: 2%;
+}
+
+/*Video Playback Features*/
+/*@media only screen and (min-width: 768px) {
+  iframe{
+    height: 13em;
+  }
+}
+.thumbnail video {
+  width: 100%;
+  height: 95%;
+}*/
