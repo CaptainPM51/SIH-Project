@@ -113,9 +113,9 @@ a {
 }
 
 /*Navigation*/
-.nav {
-  /*height: var(--header-height);*/
-}
+/*.nav {
+  height: var(--header-height);
+}*/
  
 .nav__burger, 
 .nav__close {
