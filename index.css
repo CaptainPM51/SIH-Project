@@ -103,19 +103,10 @@ a {
 
 /*Header*/
 .header {
-  /*position: fixed;*/
-  
-  /*left: 0;*/
   width: 100%;
   background-color: var(--black-color);
   box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
-  /*z-index: var(--z-fixed);*/
 }
-
-/*Navigation*/
-/*.nav {
-  height: var(--header-height);
-}*/
  
 .nav__burger, 
 .nav__close {
@@ -155,7 +146,6 @@ a {
 @media screen and (max-width: 1118px) {
   .nav__menu {
     position: absolute;
-    /*left: 0;*/
     top: 2.5rem;
     width: 100%;
     height: calc(100vh - 3.5rem);
