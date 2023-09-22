@@ -348,16 +348,64 @@ a {
 }
 
 /* warning bar */
-.sampleMarquee {
-  color: #ffffff;
-  background-color: #ed333b;
-  font-size: 18px;
-  line-height: 20px;
-  padding: 15px;
-  font-weight: bold;
+.marqcontain{
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
 }
 
-/* tab */
+.marqcontain .sampleMarquee {
+  color: #ffffff;
+  background-color: #ed333b;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 0.5%;
+  animation: changeColor 5s infinite;
+  border-radius: 8px;
+}
+
+@keyframes changeColor {
+  25% { background-color: #b70000; }
+  50% { background-color: #c60000; }
+  75% { background-color: #d70000; }
+  100% { background-color: #ff0000; }
+  100% { background-color: #ff0000; }
+  75% { background-color: #d70000; }
+  50% { background-color: #c60000; }
+  25% { background-color: #b70000; }
+}
+
+/*Intro and Whats New Cards*/
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.webintro {
+  flex: 1;
+  padding-right: 20px;
+}
+.whatscard {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  background-color: #f9f9f9;
+  height: 250px; 
+  overflow-y: auto;
+}
+.whatscard h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+.whatscard p {
+  font-size: 16px;
+}
+
+/* View tab */
 .title_view {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -375,7 +423,7 @@ a {
   background-color: transparent;
 }
 
-/* class for first and second section */
+/* Horizontal Card */
 .tile {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -427,7 +475,7 @@ a {
 .video-container:hover iframe {
   position: relative;
   width: 100%;
-  height: 115%;
+  height: 95%;
   display: block; /* Display the iframe on hover */
 }
 
@@ -435,14 +483,3 @@ a {
 .description {
   margin-top: 2%;
 }
-
-/*Video Playback Features*/
-/*@media only screen and (min-width: 768px) {
-  iframe{
-    height: 13em;
-  }
-}
-.thumbnail video {
-  width: 100%;
-  height: 95%;
-}*/
