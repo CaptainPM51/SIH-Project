@@ -397,14 +397,38 @@ a {
   margin: 10px;
 }
 
-/* all thumbnail */
-.thumbnail {
+ /* Style for the container holding the video thumbnail and iframe */
+ .video-container {
   margin: 10px;
+  position: relative;
+  width: 95%; /* Set the desired width for the video container */
 }
 
-.thumbnail img {
+/* Style for the video thumbnail image */
+.video-container img {
   width: 100%;
   height: 95%;
+}
+
+/* Style for the iframe */
+.video-container iframe {
+  width: 100%;
+  height: 95%;
+  display: none; /* Hide the iframe by default */
+}
+
+/* Style to show the iframe on hover */
+.video-container:hover img {
+  width: 100%;
+  height: 95%;
+  display: none; /* Hide the thumbnail on hover */
+}
+
+.video-container:hover iframe {
+  position: relative;
+  width: 100%;
+  height: 115%;
+  display: block; /* Display the iframe on hover */
 }
 
 /*Description*/
