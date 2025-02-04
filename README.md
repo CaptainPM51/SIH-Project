@@ -13,8 +13,6 @@ A web-based solution developed for the **Smart India Hackathon**, aimed at assis
 ## 🛠️ Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Maps API**: (e.g., Google Maps API, Leaflet.js) *(if applicable)*
-- **Data Sources**: (e.g., Government APIs, OpenWeather API) *(if applicable)*
 
 ## 🏗️ Project Setup
 
