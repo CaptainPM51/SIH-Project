@@ -18,7 +18,7 @@ A web-based solution developed for the **Smart India Hackathon**, aimed at assis
 
 1. Clone the repository:
    ```sh
-   https://github.com/PrathamAgrawal51/SIH-Project.git
+   git clone https://github.com/PrathamAgrawal51/SIH-Project.git
 
 ## 📌 Future Enhancements
 - ✅ Integration with AI-based disaster prediction models.
